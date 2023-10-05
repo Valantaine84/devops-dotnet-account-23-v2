@@ -11,7 +11,7 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     app.Logger.LogInformation("Initial Home Get");
-    return "GET - Net 6 Running ... 01102023-v1.0.0 CI/CD in AKS v1.0.0 POLYGLOT";
+    return "GET - Net 6 Running ... 01102023-v1.0.0 CI/CD in AKS v1.0.0 Bernardo Gutierrez";
 });
 
 app.MapPost("/", () =>
